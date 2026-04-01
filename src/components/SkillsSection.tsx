@@ -6,11 +6,11 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'React', level: 90 },
+  { name: 'React', level: 80 },
   { name: 'TypeScript', level: 85 },
-  { name: 'HTML & CSS', level: 92 },
-  { name: 'Node.js', level: 75 },
-  { name: 'Git', level: 88 },
+  { name: 'HTML & CSS', level: 90 },
+  { name: 'Node.js', level: 70 },
+  { name: 'Git', level: 80 },
 ]
 
 export default function SkillsSection() {
