@@ -1,15 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
-import TodoPage from "./pages/TodoPage";
-import AboutPage from "./pages/AboutPage";
 
 export default function App() {
   return (
-    <Layout>
+    <div>
+      <h1>Finals Assignment</h1>
       <Routes>
-        <Route path="/" element={<TodoPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/" element={<div><h2>Home</h2><p>Todo functionality will be continued...</p></div>} />
+        <Route path="/about" element={<div><h2>About</h2><p>About functionality will be continued...</p></div>} />
       </Routes>
-    </Layout>
+    </div>
   );
 }
